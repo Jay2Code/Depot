@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+
+    <style>
+        input {
+            border: 0;
+            outline: 0;
+            border-bottom: 2px solid gray;
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: blue;
+            justify-content: left;
+        }
+
+        .flex-left {
+            justify-content: space-around;
+            align-items: stretch;
+            align-self: center;
+            width: 50%;
+            height: 100vh;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            border-left: 6px solid white;
+            padding: 30px;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+            border-radius: 10px;
+            height: 30px;
+            background-color: blue;
+        }
+
+        .flex-right {
+            width: 50%;
+            background-color: white;
+            width: 350px;
+            margin: 100px;
+            border-radius: 5px;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        #forgotPass {
+            text-align: left;
+            color: grey;
+        }
+
+        #endText {
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-left">
+            <br>
+            <br>
+            <h1 style="border-left:6px solid white; height: 330px;"> Simple <br>Login Form <br> HTML & CSS </h1>
+        </div>
+        <div class="flex-right">
+            <h1 style="text-align: center;"> Login </h1>
+            <hr>
+            <div>
+                <br>
+                <br>
+                <input type="text" placeholder="Username">
+                <br>
+                <br>
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <br>
+                <br>
+                <div id="forgotPass">Forgot Password?</div>
+                <br>
+                <button type="button">Login</button>
+                <br>
+                <br>
+                <br>
+                <div id="endText"> Not a member?<a href="www.google.com"> Signup </a></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
